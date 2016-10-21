@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
- <!--
+<!--
 Esempio di utilizzo del servizio suggest per l'autocompletamento degli indirizzi italiani realizzato da StreetMaster Italia
      
 L'end point della libreria da includere nella sezione js di inizializzazione nella pagina è 
@@ -16,7 +16,7 @@ Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiav
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Demo Suggest</title>
+    <title>Suggest-Street Master</title>
 
     <!-- include della libreria di gestione Suggest StreetMaster -->
     <script type="text/javascript" src="http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com/suggest/js/1.0/suggest.js"></script>
@@ -63,44 +63,36 @@ Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiav
                         <br />
                         <font size="6"> Suggest</font></th>
                 </tr>
-
                 <tr>
                     <td class="auto-style2">Comune
                     </td>
                     <td class="auto-style2">
                         <asp:TextBox ID="txtComune" Autocomplete="off" Width="400px" BorderColor="Green" BorderWidth="2" runat="server" />
                     </td>
-
                 </tr>
                 <tr>
                     <td>Indirizzo</td>
                     <td>
                         <asp:TextBox ID="txtIndirizzo" Autocomplete="off" Width="400px" BorderColor="Green" BorderWidth="2" runat="server" />
                     </td>
-
                 </tr>
                 <tr>
                     <td>Provincia</td>
                     <td>
                         <asp:TextBox ID="txtProv" Autocomplete="off" Width="30px" runat="server" />
                     </td>
-
                 </tr>
-
                 <tr>
                     <td>Cap</td>
                     <td>
                         <asp:TextBox ID="txtCap" Autocomplete="off" Width="50px" runat="server" />
                     </td>
-
                 </tr>
                 <tr>
-                    <td>Frazione
-                    </td>
+                    <td>Frazione</td>
                     <td>
                         <asp:TextBox ID="txtFrazione" Autocomplete="off" Width="400px" runat="server" />
                     </td>
-
                 </tr>
                 <tr>
                     <td />
@@ -113,7 +105,6 @@ Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiav
             ATTENZIONE  
             <br />
             Prima dell'utilizzo valorizzare la chiave del servizio suggest nella sezione dichiarativa JS della pagina
-            &nbsp;
         </p>
     </form>
 </body>
