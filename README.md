@@ -1,7 +1,10 @@
 # DemoSuggestASPNET
-Demo ASP.NET per l'utilizzo del servizio SUGGEST di autocompletamento degli indirizzi italiani  
+Demo ASP.NET per l'utilizzo del servizio SUGGEST di autocompletamento degli indirizzi italiani 
 
-Il progetto è sviluppato in C# - Framework 4.6.1
+Ambiente di sviluppo
+  - C#
+  - Framework 4.6.1
+  - Visual Studio Professional 2015 SP2
 
 L'end point della libreria da includere nella sezione js di inizializzazione 
     http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com/suggest/js/1.0/suggest.js
