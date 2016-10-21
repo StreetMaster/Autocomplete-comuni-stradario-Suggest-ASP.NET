@@ -27,7 +27,7 @@ Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiav
         initStruct(1);
 
         // chiave suggest, collegata all'url della pagina
-        keyTR = "demosuggest";
+        keyTR = "inserire la chiave SUGGEST";
 
 
         // dichiarazione dei controlli di input\output per il suggest
