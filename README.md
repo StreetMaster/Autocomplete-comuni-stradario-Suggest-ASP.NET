@@ -5,6 +5,10 @@ Ambiente di sviluppo
   - C#
   - Framework 4.6.1
   - Visual Studio Professional 2015 SP2
+  
+Librerie js
+  - JQuery 2.2.4
+  - JQueryUI 1.11.4
 
 L'end point della libreria da includere nella sezione js di inizializzazione 
     http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com/suggest/js/1.0/suggest.js
