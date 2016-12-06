@@ -1,6 +1,6 @@
 # Autocomplete Comuni italiani e indirizzi 
 ## Demo Suggest ASPNET
-Demo ASP.NET per l'utilizzo del servizio SUGGEST di autocompletamento dei comuni e degli indirizzi italiani 
+Demo ASP.NET per l'utilizzo del servizio SUGGEST di autocomplete dei comuni e degli indirizzi italiani 
 
 ### Ambiente di sviluppo
   - C#
@@ -26,6 +26,8 @@ Il servizio ha una copertura a livello di strada su tutto il territorio nazional
 La base dati di riferimento è costantemente aggiornata con le variazioni amministrative e postali ufficiali.
 
 ### Ouput
+L'autocompletamento del comune si attiva in automatico appenal'utente comincia a scrivere nel textbox
+L'autocompletmaento dell'indirizzo richiede che sia stato selezionato prima un comune
 Output di base:
   - comune\indirizzo verificato e corretto in tutti i suoi compomenti
   
