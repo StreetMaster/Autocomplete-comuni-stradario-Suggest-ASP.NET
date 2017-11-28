@@ -1,6 +1,6 @@
-# Autocomplete Comuni italiani e indirizzi 
+# Comuni italiani e stradario - Autocomplete
 ## Demo Suggest ASPNET
-Demo ASP.NET per l'utilizzo del servizio SUGGEST di autocomplete dei comuni e degli indirizzi italiani 
+Comuni italiani- stradario. Demo ASP.NET per l'utilizzo del servizio SUGGEST di autocomplete 
 
 ### Ambiente di sviluppo
   - C#
