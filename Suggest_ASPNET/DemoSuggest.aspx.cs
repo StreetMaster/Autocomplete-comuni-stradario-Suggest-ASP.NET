@@ -7,7 +7,12 @@ namespace Suggest_ASPNET
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Page.IsPostBack)
+            {
+                int i = 0;
+            }
         }
+
+
     }
 }

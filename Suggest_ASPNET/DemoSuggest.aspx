@@ -29,7 +29,6 @@ Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiav
         // chiave suggest, collegata all'url della pagina
         keyTR = "inserire la chiave SUGGEST";
 
-
         // dichiarazione dei controlli di input\output per il suggest
         aAddressSet[0].townSrch = "txtComune";
         aAddressSet[0].town = "txtComune";
@@ -97,6 +96,11 @@ Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiav
                 <tr>
                     <td />
                     <td />
+                        &nbsp;</tr>
+                <tr>
+                    <td />
+                        &nbsp;<td />
+                        <asp:Button ID="Button1" runat="server" Height="25px" OnClick="Button1_Click" Text="Submit" />
                 </tr>
             </table>
 
