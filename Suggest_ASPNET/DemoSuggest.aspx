@@ -19,7 +19,7 @@ Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiav
     <title>Suggest-Street Master</title>
 
     <!-- include della libreria di gestione Suggest StreetMaster -->
-    <script type="text/javascript" src="http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com/suggest/js/1.0/suggest.js"></script>
+    <script type="text/javascript" src="http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com/suggest/js/1.1/suggest.js"></script>
     <!--Inizio dichiarazioni Suggest StreetMaster -->
     <script type="text/javascript">
 
@@ -38,6 +38,8 @@ Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiav
         aAddressSet[0].address = "txtIndirizzo";
 
         provSearch = false;
+        provFormatLong=false;   
+        outGerman=true; 
     </script>
     <!--Fine dichiarazioni Suggest StreetMaster -->
     <style type="text/css">
@@ -96,12 +98,7 @@ Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiav
                 <tr>
                     <td />
                     <td />
-                        &nbsp;</tr>
-                <tr>
-                    <td />
-                        &nbsp;<td />
-                        <asp:Button ID="Button1" runat="server" Height="25px" OnClick="Button1_Click" Text="Submit" />
-                </tr>
+                       </tr>
             </table>
 
         </div>
