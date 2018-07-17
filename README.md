@@ -14,7 +14,7 @@ Comuni italiani e stradario. Soluzione ASP.NET per l'utilizzo del servizio SUGGE
 ### Endpoint
 Endpoint della libreria da includere nella sezione js di inizializzazione 
 ```
-    http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com/suggest/js/1.0/suggest.js
+    http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com/suggest/js/1.1/suggest.js
 ```
 ### Condizioni
 Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiave per il servizio SUGGEST.
