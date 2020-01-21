@@ -7,11 +7,13 @@
 // </generato automaticamente>
 //------------------------------------------------------------------------------
 
-namespace Suggest_ASPNET {
-    
-    
-    public partial class DemoVerify {
-        
+namespace Suggest_ASPNET
+{
+
+
+    public partial class DemoVerify
+    {
+
         /// <summary>
         /// Controllo DemoSuggest.
         /// </summary>
@@ -20,7 +22,7 @@ namespace Suggest_ASPNET {
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm DemoSuggest;
-        
+
         /// <summary>
         /// Controllo Image1.
         /// </summary>
@@ -29,7 +31,7 @@ namespace Suggest_ASPNET {
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image Image1;
-        
+
         /// <summary>
         /// Controllo txtComune.
         /// </summary>
@@ -38,7 +40,7 @@ namespace Suggest_ASPNET {
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtComune;
-        
+
         /// <summary>
         /// Controllo txtIndirizzo.
         /// </summary>
@@ -47,7 +49,7 @@ namespace Suggest_ASPNET {
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtIndirizzo;
-        
+
         /// <summary>
         /// Controllo txtProv.
         /// </summary>
@@ -56,7 +58,7 @@ namespace Suggest_ASPNET {
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtProv;
-        
+
         /// <summary>
         /// Controllo txtCap.
         /// </summary>
@@ -65,7 +67,7 @@ namespace Suggest_ASPNET {
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtCap;
-        
+
         /// <summary>
         /// Controllo txtFrazione.
         /// </summary>
@@ -74,5 +76,32 @@ namespace Suggest_ASPNET {
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtFrazione;
+
+        /// <summary>
+        /// Controllo HiddenTownKey.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputHidden HiddenTownKey;
+
+        /// <summary>
+        /// Controllo HiddenStreetKey.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputHidden HiddenStreetKey;
+
+        /// <summary>
+        /// Controllo Button1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button1;
     }
 }

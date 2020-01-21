@@ -27,7 +27,7 @@ Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiav
         initStruct(1);
 
         // chiave suggest, collegata all'url della pagina
-        keyTR = "inserire la chiave SUGGEST";
+        keyTR = "demosuggest";
 
         // dichiarazione dei controlli di input\output per il suggest
         aAddressSet[0].townSrch = "txtComune";
@@ -39,7 +39,13 @@ Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiav
 
         provSearch = false;
         provFormatLong=false;   
-        outGerman=true; 
+        outGerman = true; 
+
+        function FromJStoCSharp()
+        {
+            document.getElementById("HiddenTownKey").value=townKey[0];
+            document.getElementById("HiddenStreetKey").value=streetKey[0];
+        }
     </script>
     <!--Fine dichiarazioni Suggest StreetMaster -->
     <style type="text/css">
@@ -100,6 +106,11 @@ Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiav
                     <td />
                        </tr>
             </table>
+            <div>
+                  <input id="HiddenTownKey" type="hidden" runat="server" />
+                  <input id="HiddenStreetKey" type="hidden" runat="server" />
+            </div>
+            <asp:Button ID="Button1" runat="server" OnClientClick="FromJStoCSharp()" OnClick="Button1_Click" Text="Read Js Var" />
 
         </div>
         <p>
