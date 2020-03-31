@@ -7,7 +7,7 @@
 Esempio di utilizzo del servizio suggest per l'autocompletamento degli indirizzi italiani realizzato da StreetMaster Italia
      
 L'end point della libreria da includere nella sezione js di inizializzazione nella pagina è 
-    http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com/suggest/js/1.0/suggest.js
+    https://streetmaster.streetmaster.it/suggest/js/1.0/suggest.js
      
 Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiave per il servizio SUGGEST 
 2016 - Software by StreetMaster (c) 
@@ -19,7 +19,7 @@ Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiav
     <title>Suggest-Street Master</title>
 
     <!-- include della libreria di gestione Suggest StreetMaster -->
-    <script type="text/javascript" src="http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com/suggest/js/1.2/suggest.js"></script>
+    <script type="text/javascript" src="https://streetmaster.streetmaster.it/suggest/js/1.2/suggest.js"></script>
     <!--Inizio dichiarazioni Suggest StreetMaster -->
     <script type="text/javascript">
 
@@ -27,7 +27,7 @@ Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiav
         initStruct(1);
 
         // chiave suggest, collegata all'url della pagina
-        keyTR = "demosuggest";
+        keyTR = "inserire chiave";
 
         // dichiarazione dei controlli di input\output per il suggest
         aAddressSet[0].townSrch = "txtComune";
